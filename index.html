@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+       <meta charset= "UTF-8">
+       <meta name="viewport"content="width=device-width,initial-scale=1.0">
+       <title>SSB611</title>
+
+</head>
+<body>
+    
+    <h1>Home</h1>
+    
+
+      <!--
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Pa</p> -->
+      <p>The<abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+      </p>
+
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <address>
+Written by <a href="https://www.facebook.com/zerinfarhankhan"target=_blank>zerin</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Dhaka<br>
+USA
+</address
+
+<article>
+  <h2>Hospital</h2>
+  <p> This is the place were doctor serves sick people. </p>
+</article>
+
+<article>
+  <h2>School</h2>
+  <p>This is the place were knowledge hasbeen distributed.</p>
+</article>
+
+
+
+
+<p>My family and I visited The Cox's bazr this summer. The weather was nice, and the beach was amazing! I had a great summer together with my family!</p>
+
+<aside>
+  <h4>Cox's bazar</h4>
+  <p>This is the longest sea beach in the world,every year many people visit here,and this place is so peaceful at night,the sound of the sea make me relaxed . i love sea .</p>
+</aside>
+
+
+
+
+<h1>The audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="ocean waves.ogg" type="audio/ogg">
+  <source src="ocean.mp3" type="audio/mpeg">  
+  
+  Your browser does not support the audio element.
+</audio>
+
+
+<h1>Cox's bazar</h1>
+
+<p>This is a sea beach- <b> this is the longest sea beach in the world.</b>.</p>
+
+
+<h1>The base element</h1>
+
+<p><img src="images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+<h1>The bdi element</h1>
+
+<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+<ul>
+ <li>User <bdi>hrefs</bdi>: 60 points</li>
+ <li>User <bdi>jdoe</bdi>: 80 points</li>
+ <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+<h1>The bdo element</h1>
+
+<p>This paragraph will go left-to-right.</p>  
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+
+
+<blockquote cite="https://www.youtube.com/index.html">
+YouTube is an American online video sharing platform owned by Google. Accessible worldwide, it was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim.
+</blockquote>
+
+
+<p>zerin adiba<br>born in 2004<br>live in dhaka<br> favourite place bali<br></p>
+
+
+<button type="button" onclick="alert('Assalamualaikum, have a good day')">Click Me!</button>
+
+
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Food menu</caption>
+  <tr>
+    <th>Food</th>
+    <th>Cost</th>
+  </tr>
+  <tr>
+    <td>Burger</td>
+    <td>250tk</td>
+  </tr>
+  <tr>
+    <td>Chicken fry</td>
+    <td>250tk</td>
+  </tr>
+</table>
+
+<img src="images/scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>The col element</h1>
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:orange;">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>Number</th>
+    <th>menu</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>pizza</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>fries</td>
+    <td>$4</td>
+  </tr>
+</table>
+
+
+<p> Inshallah soon we will include some new items in our menu, here is some of them:</p>
+
+<ul>
+  <li><data value="1">Cheese nuggets</data></li>
+  <li><data value="2">Beef chowmin</data></li>
+  <li><data value="3">Sandwich</data></li>
+</ul>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+</form>ong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+
+<p>My favorite color is <del>black</del> <ins>blue</ins>!</p>
+
+
+<details>
+  <summary>Mountain of bangladesh</summary>
+  <p> there are many mountains in bangladesh but one of the populer mountain is keokra dong.</p>
+</details>
+
+
+<p><dfn>RESTURANT</dfn>this is the place were some people called waiter served us food we want and of course we have to pay for the food.</p>
+
+
+<p>This is the place i want to go.</p>
+
+<p> The place of peace.</p>
+
+<dialog open>MAKKAH,Saudia Arabia</dialog>
+
+<p>This is the dream place of every muslim.</p>
+
+<p>Destiny of my life.</p>
+
+
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: orange;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>This is my new resturant</h1>
+<div class="myDiv">
+<h2>The foodies place</h2>
+  <p>opening in 24 june.</p>
+</div>
+
+<p>Please have a sit in this place,that you will love .</p>
+
+
+
+<h1>The foodies place</h1>
+
+<p>You <em>have</em> to hurry up!</p>
+
+<p>or else <em> you will</em> miss the discount.</p>
+
+
+<h1>The  foodies place</h1>
+
+<embed type="image/jpg" src=" images/resturant.jpg" width="355" height="200">
+
+
+
+<h1>If you want to get a job here, fill the gaps below:</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+
+<h1>For any information, contact with me</h1>
+
+<footer>
+  <p>Author: zerin adiba<br>
+  <a href=https://www.facebook.com/zerinfarhankhan/target=_blank>zerin</a></p>
+</footer>
+
+
+
+<h1>The form element</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+
+<hgroup>
+  <h2>Makkah</h2>
+  <p>The land of peace and unity.</p>
+</hgroup>
+
+
+
+<h1>The lorem ipsum</h1>
+
+<p> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Pa</p>
+</p>
+<hr>
+
+<p>  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Pa</p>
+.</p>
+
+<hr>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<p>The <i> Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste text (Windows).</p>
+
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<h2>I am poofy.</h2>
+
+<p>hurry up!</p>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<p>The meter element is used to display a gauge:</p>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+
+<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+<p>The nav element defines a set of navigation links:</p>
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+
+</nav>
+
+
+
+<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="food">Choose a food:</label>
+  <select name="food" id="food">
+    <optgroup label="Sandwich">
+      <option value="nuggets">nuggets</option>
+      <option value="burger">burger</option>
+    </optgroup>
+    <optgroup label="pizza">
+      <option value="smoothie">smoothie</option>
+      <option value="chicken fry">chicken fry</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="100">
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+
+<p>proud to be a muslim.</p>
+
+<pre>Muslims believe that Islam is the complete and universal version of a primordial faith that was revealed many times through earlier prophets and messengers, including Adam, Noah, Abraham, Moses, and Jesus. Muslims consider the Quran to be the verbatim word of God and the unaltered, final revelation. Alongside the Quran, Muslims also believe in previous revelations, such as the Tawrat (the Torah), the Zabur (Psalms), and the Injil (Gospel). They believe that Muhammad is the main and final Islamic prophet, through whom the religion was completed. The teachings and normative examples of Muhammad, called the sunnah, documented in accounts called the hadith, provide a constitutional model for Muslims.
+
+</pre>
+
+
+
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="64" max="100"> 32% </progress>
+
+
+<p>WHO's goal is to: 
+<q>Build a future where people live a healthy life.</q>
+We hope they succeed.</p>
+
+
+<p><s>Only 50 burgers left!</s></p>
+<p>SOLD OUT!</p>
+
+
+
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello css!";
+</script> 
+
+<search>
+  <form>
+    <input name="fsrch" id="fsrch" placeholder="Search The foodies place">
+  </form>
+</search>
+
+
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+<p>This is me zerin.</p>
+<p><small>my favourite place is  coxs bazar.</small></p>
+
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+p>This is me <sub> zerin</sub> adiba.</p>
+<p>i love to eat<sup> burgers</sup>with extra cheese.</p>
+
+
+<form action="/action_page.php">
+  <p><label for="The foodies place">Review of The foodies place:</label></p>
+  <textarea id="foodies placereview" name="foodies placereview" rows="4" cols="50">At foodies place  you will get flavourfull and yummy food.there food is fresh and healthy.</textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2024-02-14 20:00">Eid day</time>.</p>
+
+<p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+
+<p>This is my  <u>resturant</u> please come and enjoy.</p>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+
+
+</body> 
+</html>
